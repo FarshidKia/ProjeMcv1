@@ -26,5 +26,12 @@ namespace ProjeMcv1.Controllers
 
             return View();
         }
+
+        public ActionResult Test1()
+        {
+            ViewBag.Message = "Test Edildi.";
+
+            return View();
+        }
     }
 }
